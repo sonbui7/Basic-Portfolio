@@ -83,9 +83,46 @@ img{
 
 /*Portfolio*/
 
-#img1, #img2, #img3, #img4, #img5{
-    box-sizing: border-box;
+
+.text1, .text2, .text3, .text4, .text5{
+    position: relative;
 }
+
+.imgtext1, .imgtext2, .imgtext3, .imgtext4, .imgtext5{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 33.55%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.imgtext1{
+    top: 165px;
+    left: 0;
+}
+
+.imgtext2{
+    top: 165px;
+    left: 410px;
+}
+
+.imgtext3{
+    top: 390px;
+    left: 0;
+}
+
+.imgtext4{
+    top: 390px;
+    left: 410px;
+}
+
+.imgtext5{
+    top: 615px;
+    left: 0;
+}
+
 
 /* Contact*/
 

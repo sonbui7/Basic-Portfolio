@@ -1,37 +1,6 @@
-#name{
-    color: white;
-    background-color: #4aaaa5;
-    border: 2px solid #4aaaa5;
-    font-size: 32px;
-    margin-left: 150px;
-    float: left;
-    padding: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-#about, #portfolio{
-    color: grey;
-    float: right;
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-
-#contact{
-    color: grey;
-    float: right;
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-right: 100px;
-}
-
 header > h2{
     margin-top: 30px;
     margin-right: 50px;
-}
-#top{
-    border-bottom: 2px solid grey;
-    background-color: white;
 }
 
 #top::after{
@@ -40,103 +9,151 @@ header > h2{
     display: table;
 }
 
-#body{
-    margin: 50px 150px 50px 150px;
-    border: 5px solid #4aaaa5;
-    background-color: white;
-    padding: 20px;
-    line-height: 50px;
-    height: 770px;
-}   
-
-#aboutme{
-    padding-top: 20px;
-    font-size: 32px;
-    border-bottom: 2px solid lightgrey;
-    padding-bottom: 20px;
-    color: #4aaaa5;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-p{
-    padding-top: 20px;
-    line-height: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .bottom{
     color: white;
     text-align: center;
     background-color: grey;
     position: absolute;
     width: 100%;
-    border-top: 5px solid #4aaaa5;
+    border-top: 5px solid firebrick;
+    padding: 15px;
 }
 
 img{
-    float: left;
+    float: right;
     width: 400px;
     padding-right: 10px;
     padding-top: 25px;
 }
 
-/*Portfolio*/
+/* ---------------------------- NEW CHANGES ----------------------------*/
 
-
-.text1, .text2, .text3, .text4, .text5{
-    position: relative;
+.wallpaper {
+    background-size: cover;
 }
 
-.imgtext1, .imgtext2, .imgtext3, .imgtext4, .imgtext5{
-    position: absolute;
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
-    width: 33.55%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-}
-
-.imgtext1{
-    top: 165px;
-    left: 0;
-}
-
-.imgtext2{
-    top: 165px;
-    left: 410px;
-}
-
-.imgtext3{
-    top: 390px;
-    left: 0;
-}
-
-.imgtext4{
-    top: 390px;
-    left: 410px;
-}
-
-.imgtext5{
-    top: 615px;
-    left: 0;
-}
-
-
-/* Contact*/
-
-form{
-    font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 25px;
-}
-
-#butt{
-    margin-top: 20px;
+.bodyDiv{
+    margin: 50px 150px ;
+    border: 5px solid lightsteelblue;
+    background:rgba(255,255,255,0.8);
+    padding: 30px;
+    padding-bottom: 80px;
     font-size: 20px;
-    background-color: #4aaaa5;
+    line-height: 30px;
+    height: 100%;
+    border-radius: 10px;
+}   
+
+#navBar {
+    float: right;
+}
+
+.navButton {
+    padding: 10px;
+    margin: 20px 40px 20px 20px;
     color: white;
-    padding: 5px 15px 5px 15px;
-    border: 1px solid white;
+    font-family: 'Electrolize', sans-serif;
+}
+
+#name{
+    color: white;
+    background-color: firebrick;
+    border: 2px solid firebrick;
+    font-size: 32px;
+    margin-left: 150px;
+    float: left;
+    padding: 25px;
+    font-family: 'Electrolize', sans-serif;
+}
+
+#top{
+    border-bottom: 2px solid grey;
+    background:rgba(255,255,255,0.8);
+}
+
+.bodyHeader{
+    padding-top: 20px;
+    font-size: 64px;
+    border-bottom: 2px solid firebrick;
+    padding-bottom: 60px;
+    color: firebrick;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: 5px;
+}
+
+.userInfo {
+    width: 50%;
+}
+
+.userInput {
+    width: 70%;
+    height: 200px;
+}
+
+.submitBtn {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.bodyTitles {
+    font-size: 48px;
+    color: firebrick;
+    font-family: 'Electrolize', sans-serif;
+    margin: 40px 0;
+}
+
+.info:link {
+    color: steelblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.info:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.info:hover {
+    color: firebrick;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.info:active {
+    color: orange;
+}
+
+.textStyle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.moreInfo {
+    color: navy;
+    font-family: 'Electrolize', sans-serif;
+    padding-bottom: 5px;
+}
+
+.contactInfo {
+    color: navy;
+    font-family: 'Electrolize', sans-serif;
+    padding: 10px 0px;
+}
+#myName {
+    font-size: 32px;
+}
+
+.myInfo {
+    color: steelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#body1, #body2, #body3 {
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+#inbox {
+    padding-top: 20px;
 }

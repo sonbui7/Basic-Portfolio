@@ -1,58 +1,65 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Son Bui</title>
-        <link rel="stylesheet" href="asset/css/reset.css">
-        <link rel="stylesheet" href="asset/css/style.css">
-    </head>
-    <body background="http://www.uidownload.com/files/113/157/158/free-vector-backgrounds-illustrator.png">
-    
-        <div id="top">
+
+<head>
+    <title>Son Bui</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="asset/css/reset.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Cinzel+Decorative|Electrolize" rel="stylesheet">
+</head>
+
+<body class="wallpaper"
+    background="https://wallpapercave.com/wp/1D7pKB3.jpg">
+
+    <div id="top">
+
         <header id="name">
             <h1>Son Bui</h1>
         </header>
-        <header id="contact">
-            <h2>
-                <a href="file:///C:/Users/new/gtbootcamp/Basic-Portfolio/contact.html">
-                    Contact</h2></a>
-        </header>
-        <header id="portfolio">
-            <h2>
-                <a href="file:///C:/Users/new/gtbootcamp/Basic-Portfolio/portfolio.html">
-                    Portfolio</h2></a>
-        </header>
-        <header id="about">
-            <h2>
-                <a href="file:///C:/Users/new/gtbootcamp/Basic-Portfolio/index.html">
-                    About</h2></a>
-        </header>
-        </div>
-        <header>
-        <div id="body">
-            <h3 id="aboutme">Contact</h3>
-        
-            <form class="nbox" id= action="">
-            Name: <br>
-            <input type="text" name="firstname" style="width:1144px" value="">
-            <br>
-            Email: <br>
-            <input type="text" name="email" style="width:1144px" value="">
-            <br>
-            Message: <br>
-           <textarea name="text" rows="10" cols="151"></textarea>
-            <br>
-            </form>
-            <button id="butt" type="button">Submit</button>
-        </header>
-    </div>
-    </body>
 
-    <body>
-        <div class="bottom">
-            <p>Copyright @</p>
+        <div id="navBar">
+
+            <a href="file:///C:/Users/new/gtbootcamp/Basic-Portfolio/index.html">
+                <button type="button" class="btn btn-secondary navButton">About Me</button>
+            </a>
+
+            <a href="file:///C:/Users/new/gtbootcamp/Basic-Portfolio/portfolio.html">
+                <button type="button" class="btn btn-secondary navButton">Portfolio</button>
+            </a>
+
+            <a href="file:///C:/Users/new/gtbootcamp/Basic-Portfolio/contact.html">
+                <button type="button" class="btn btn-secondary navButton">Contact</button>
+            </a>
+
         </div>
-    </body>
-    
+
+    </div>
+
+        <div class="bodyDiv">
+            <h3 class="bodyHeader">Contact</h3>
+
+            <form id="inbox" >
+                <h3 class='contactInfo'>Name:</h3>
+                <p><input type="text" name="firstname" class="userInfo" value=""></p>
+
+                <h3 class='contactInfo'>Email:</h3>
+                <p><input type="text" name="email" class="userInfo" value=""></p>
+
+                <h1 class='contactInfo'>Message:</h1>
+                <p><textarea name="text" class="userInput"></textarea></p>
+            </form>
+            <button class="btn btn-danger submitBtn" type="button">Submit</button>
+    </div>
+</body>
+
+<body>
+    <div class="bottom">
+        <p>Copyright @</p>
+    </div>
+</body>
+
 
 
 
